@@ -17,7 +17,6 @@ public:
 protected:
     QProgressBar* barre;//une petite barre de progression
     QLabel* label; // un petit mot pour l'utilisateur
-    QVBoxLayout* layout; // un layout pour bien afficher toute ça
 
 signals:
 

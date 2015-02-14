@@ -7,7 +7,6 @@ Bugs connus :
 Améliorations à faire :
 -faire la conjugaison des verbes.
 -inclure les articles devant les noms quand c’est nécessaire.
--changer le champ d’affichage de la phrase générée pour permettre de réaliser des copier-coller.
 
 Réalisation du code :
 - en un premier temps je me suis occupé de l'organisation du programme, donc la déclaration des différentes classes qui allaient exister dans mon programme, comment elles devront interagir entre elles et les informations qu'elles contiendront.
@@ -24,6 +23,8 @@ Réalisation du code :
 -l'emplacement des différents widgets fut décidé tout au long du développement au fur et à mesure que ces widgets étaient ajoutés au code.
 
 NOTES SUP:
+-Les mots générés aléatoirement sont affichés dans un champ de texte non modifiable pour qu'ils puissent être copiés-collés.
+
 -j'ai décidé d'enregistrer les structures des phrases dans un fichier car cela permet d'ajouter ou modifier une nouvelle structure sans avoir à recompiler  le code.
 
-- je n'ai pas fait la gestion des accords et des conjugaisons car je suis nul en français (celui qui lit ceci devrait déjà l'avoir réalisé) et je ne veux  pas faire un code qui contienne des fautes.
+-je n'ai pas fait la gestion des accords et des conjugaisons car je suis nul en français (celui qui lit ceci devrait déjà l'avoir réalisé) et je ne veux  pas faire un code qui contienne des fautes.

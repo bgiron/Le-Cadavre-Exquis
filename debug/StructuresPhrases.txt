@@ -1,0 +1,2 @@
+nom adj ver nom
+nom qui ver ver nom adj

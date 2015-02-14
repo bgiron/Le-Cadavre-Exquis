@@ -4,8 +4,8 @@
 #include <fstream>
 #include <iostream>
 #include <QString>
-#include <famillelettres.h>
-#include <arbrelettres.h>
+#include "famillelettres.h"
+#include "arbrelettres.h"
 #include <QDebug>
 
 #endif // FICHIERS_H

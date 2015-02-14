@@ -4,7 +4,7 @@
 #include <QWidget>
 #include "arbrelettres.h"
 #include "fichiers.h"
-#include <QLabel>
+#include <QLineEdit>
 #include <QGridLayout>
 #include <QTableView>
 #include <QStandardItemModel>
@@ -28,8 +28,11 @@ protected:
     QPushButton* genereAdj;
     QPushButton* genereAdv;
     QPushButton* generePhrase;
-    QLabel* mot_affiche;
+    QLineEdit* mot_affiche;
     QList<QString> phrases;
+
+    bool chargeDico(const std::string & emplacementDico);
+    bool chargePhrases(const std::string & emplacementPhrases);
 
 signals:
     void initCharge(int t);

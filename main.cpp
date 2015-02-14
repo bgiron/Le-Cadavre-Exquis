@@ -7,8 +7,5 @@ int main (int argc, char* argv[])
 
     Chargement* f = new Chargement();
 
-    f->show();
-    f->ouvreFenetre();
-
     return app.exec();
 }
